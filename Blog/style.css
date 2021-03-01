@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    color: rgb(0, 0, 255);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: brown;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.autor {
+    color: green;
+    font-size: 22px;
+}
+
+.autor-div {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.autor-div img {
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.paragrafo-justificado {
+    text-align: justify;
+}
+
+img {
+    width: 200px;
+}
+
+.contenedor {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.ventana-izquierda {
+    padding-right: 20px;
+    width: 75%;
+    display: inline-block;
+    position: relative;
+}
+
+.ventana-derecha {
+    width: 24%;
+    float: right;
+    margin-top: 50px;
+}
+
+.otro-blog {
+    margin: 50px 0px;
+    color: blue;
+    text-align: justify;
+    width: 80%;
+}
+
+.categoria {
+    position: absolute;
+    top: 13px;
+    right: 40px;
+    color: rgb(91, 26, 151);
+}
